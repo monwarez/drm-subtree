@@ -76,7 +76,6 @@ index 78377086315..a63f3231efe 100644
  COMPILING_LINT opt_global.h
  CY_PCI_FASTINTR
  DEADLKRES      opt_watchdog.h
-
 -- 
 2.35.1
 
