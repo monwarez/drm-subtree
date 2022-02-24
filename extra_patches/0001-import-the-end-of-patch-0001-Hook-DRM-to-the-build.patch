@@ -1,0 +1,24 @@
+From 53542625a548a7555ac697a80a989899646f45b0 Mon Sep 17 00:00:00 2001
+From: Thibault Payet <monwarez@gmail.com>
+Date: Thu, 24 Feb 2022 20:28:00 +0100
+Subject: [PATCH] import the end of patch 0001-Hook-DRM-to-the-build
+
+---
+ sys/conf/options | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/sys/conf/options b/sys/conf/options
+index 78377086315..a63f3231efe 100644
+--- a/sys/conf/options
++++ b/sys/conf/options
+@@ -95,6 +95,7 @@ COMPAT_CLOUDABI32	opt_dontuse.h
+ COMPAT_CLOUDABI64	opt_dontuse.h
+ COMPAT_LINUXKPI	opt_dontuse.h
+ _COMPAT_LINUX32	opt_compat.h	# XXX: make sure opt_compat.h exists
++COMPAT_DRMKPI	opt_global.h
+ COMPILING_LINT	opt_global.h
+ CY_PCI_FASTINTR
+ DEADLKRES	opt_watchdog.h
+-- 
+2.35.1
+
